@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Borderline" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bl_accent</item>
+        <item name="colorPrimaryVariant">@color/bl_accent_dark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">@color/bl_surface</item>
+        <item name="colorOnSurface">@color/bl_text_primary</item>
+        <item name="android:windowBackground">#F7F8FC</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#EEF2FF</item>
+    </style>
+</resources>

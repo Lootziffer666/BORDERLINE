@@ -1,0 +1,10 @@
+<resources>
+    <color name="ic_launcher_background">#5A6BFF</color>
+    <color name="bl_surface">#F2FFFFFF</color>
+    <color name="bl_surface_soft">#CCFFFFFF</color>
+    <color name="bl_surface_line">#26000000</color>
+    <color name="bl_text_primary">#111827</color>
+    <color name="bl_text_secondary">#4B5563</color>
+    <color name="bl_accent">#5A6BFF</color>
+    <color name="bl_accent_dark">#4151D6</color>
+</resources>
