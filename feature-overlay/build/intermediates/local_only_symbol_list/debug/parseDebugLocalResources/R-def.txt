@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable bg_edge_handle
+drawable bg_overlay_panel
+id actionOneButton
+id actionTwoButton
+id closeOverlayButton
+id edgeHandleIcon
+id overlayStatus
+id overlayTitle
+layout view_edge_handle
+layout view_overlay_panel
