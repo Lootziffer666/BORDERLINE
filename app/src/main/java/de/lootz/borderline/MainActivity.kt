@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             binding.xiaomiCard.visibility = View.VISIBLE
             val hyperOsVersion = DeviceCompatibility.getHyperOSVersion()
             if (hyperOsVersion != null) {
-                binding.xiaomiTitle.text = "HyperOS ($hyperOsVersion) Optimierung"
+                binding.xiaomiTitle.text = getString(R.string.xiaomi_hyperos_title_format, hyperOsVersion)
             }
 
             binding.openAutostartButton.setOnClickListener {
@@ -80,15 +80,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun renderState() {
         val serviceEnabled = isAccessibilityServiceEnabled()
-        binding.accessibilityStatus.text = if (serviceEnabled) {
-            "Accessibility: aktiv"
-        } else {
-            "Accessibility: nicht aktiv"
-        }
+        binding.accessibilityStatus.setText(
+            if (serviceEnabled) R.string.status_accessibility_active else R.string.status_accessibility_inactive
+        )
 
         val snapshot = modulePrefs.snapshot()
         binding.moduleStatus.text = snapshot.entries.joinToString(separator = "\n") { (id, enabled) ->
-            "${id.displayName}: ${if (enabled) "an" else "aus"}"
+            val stateText = getString(if (enabled) R.string.status_on else R.string.status_off)
+            getString(R.string.status_module_format, id.displayName, stateText)
         }
     }
 

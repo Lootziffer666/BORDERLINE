@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Borderline</string>
+    <string name="app_description">No-friction Accessibility Overlay mit transparenten, einzeln schaltbaren Modulen.</string>
+
+    <!-- Xiaomi / HyperOS -->
+    <string name="xiaomi_optimization_title">Xiaomi/HyperOS Optimierung</string>
+    <string name="xiaomi_hyperos_title_format">HyperOS (%1$s) Optimierung</string>
+    <string name="xiaomi_optimization_desc">Für HyperOS sind zusätzliche Berechtigungen nötig, damit das Overlay im Hintergrund und auf dem Lockscreen erscheint.</string>
+    <string name="xiaomi_autostart_btn">Autostart verwalten</string>
+    <string name="xiaomi_popup_btn">Display pop-up windows (Hintergrund)</string>
+    <string name="xiaomi_battery_btn">Energiesparmodus: Keine Beschränkung</string>
+
+    <!-- Modules -->
+    <string name="modules_title">Module</string>
+    <string name="modules_desc">Accessibility ist das Backbone. Overlay und Quick Actions lassen sich separat testen.</string>
+    <string name="module_overlay_label">Overlay Panel</string>
+    <string name="module_shortcuts_label">Quick Actions</string>
+
+    <!-- Status -->
+    <string name="status_title">Status</string>
+    <string name="status_accessibility_active">Accessibility: aktiv</string>
+    <string name="status_accessibility_inactive">Accessibility: nicht aktiv</string>
+    <string name="status_accessibility_unknown">Accessibility: unbekannt</string>
+    <string name="status_module_format">%1$s: %2$s</string>
+    <string name="status_on">an</string>
+    <string name="status_off">aus</string>
+    <string name="open_accessibility_settings">Accessibility-Einstellungen öffnen</string>
+
+    <!-- Footer -->
+    <string name="limits_title">Grenzen</string>
+    <string name="limits_desc">Keine Passwortauslese, keine magische Vollautomatisierung, kein App-übergreifendes Wunderland ohne Android-Grenzen.</string>
 </resources>

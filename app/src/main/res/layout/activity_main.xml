@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Borderline"
+            android:text="@string/app_name"
             android:textColor="@color/bl_text_primary"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="No-friction Accessibility Overlay mit transparenten, einzeln schaltbaren Modulen."
+            android:text="@string/app_description"
             android:textColor="@color/bl_text_secondary"
             android:textSize="16sp" />
 
@@ -49,7 +49,7 @@
                     android:id="@+id/xiaomiTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Xiaomi/HyperOS Optimierung"
+                    android:text="@string/xiaomi_optimization_title"
                     android:textColor="#FFB74D"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Für HyperOS sind zusätzliche Berechtigungen nötig, damit das Overlay im Hintergrund und auf dem Lockscreen erscheint."
+                    android:text="@string/xiaomi_optimization_desc"
                     android:textColor="@color/bl_text_secondary" />
 
                 <Button
@@ -67,21 +67,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Autostart verwalten" />
+                    android:text="@string/xiaomi_autostart_btn" />
 
                 <Button
                     android:id="@+id/openOtherPermissionsButton"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Display pop-up windows (Hintergrund)" />
+                    android:text="@string/xiaomi_popup_btn" />
 
                 <Button
                     android:id="@+id/openBatteryOptimizationButton"
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Energiesparmodus: Keine Beschränkung" />
+                    android:text="@string/xiaomi_battery_btn" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -104,7 +104,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Module"
+                    android:text="@string/modules_title"
                     android:textColor="@color/bl_text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -113,7 +113,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="Accessibility ist das Backbone. Overlay und Quick Actions lassen sich separat testen."
+                    android:text="@string/modules_desc"
                     android:textColor="@color/bl_text_secondary" />
 
                 <com.google.android.material.switchmaterial.SwitchMaterial
@@ -121,13 +121,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:text="Overlay Panel" />
+                    android:text="@string/module_overlay_label" />
 
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/shortcutsSwitch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Quick Actions" />
+                    android:text="@string/module_shortcuts_label" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -149,7 +149,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Status"
+                    android:text="@string/status_title"
                     android:textColor="@color/bl_text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -159,7 +159,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Accessibility: unbekannt"
+                    android:text="@string/status_accessibility_unknown"
                     android:textColor="@color/bl_text_primary" />
 
                 <TextView
@@ -167,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Module: -"
+                    android:text="@string/status_off"
                     android:textColor="@color/bl_text_secondary" />
 
                 <Button
@@ -175,7 +175,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:text="Accessibility-Einstellungen öffnen" />
+                    android:text="@string/open_accessibility_settings" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -197,7 +197,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grenzen"
+                    android:text="@string/limits_title"
                     android:textColor="@color/bl_text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -206,7 +206,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Keine Passwortauslese, keine magische Vollautomatisierung, kein App-übergreifendes Wunderland ohne Android-Grenzen."
+                    android:text="@string/limits_desc"
                     android:textColor="@color/bl_text_secondary" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
