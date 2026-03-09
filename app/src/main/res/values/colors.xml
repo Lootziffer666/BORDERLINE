@@ -2,35 +2,33 @@
 <resources>
     <color name="ic_launcher_background">#001C38</color>
 
-    <!-- Material 3 Mappings (Xiaomi 14T Pro Tones) -->
     <color name="primary">#A8C8FF</color>
-    <color name="onPrimary">#003062</color>
-    <color name="primaryContainer">#00468A</color>
-    <color name="onPrimaryContainer">#D6E3FF</color>
+    <color name="onPrimary">#0C1A33</color>
+    <color name="primaryContainer">#20304B</color>
+    <color name="onPrimaryContainer">#D8E6FF</color>
 
-    <color name="secondary">#BDC7DC</color>
-    <color name="onSecondary">#283141</color>
-    <color name="secondaryContainer">#3E4758</color>
-    <color name="onSecondaryContainer">#D9E3F8</color>
+    <color name="secondary">#C5CBDC</color>
+    <color name="onSecondary">#1D2432</color>
+    <color name="secondaryContainer">#2A3141</color>
+    <color name="onSecondaryContainer">#DEE4F4</color>
 
-    <color name="tertiary">#DDBCE0</color>
-    <color name="onTertiary">#3F2844</color>
-    <color name="tertiaryContainer">#573E5C</color>
-    <color name="onTertiaryContainer">#F9D8FD</color>
+    <color name="tertiary">#D8C3F2</color>
+    <color name="onTertiary">#2E2242</color>
+    <color name="tertiaryContainer">#43345B</color>
+    <color name="onTertiaryContainer">#F0E3FF</color>
 
     <color name="error">#FFB4AB</color>
     <color name="onError">#690005</color>
     <color name="errorContainer">#93000A</color>
     <color name="onErrorContainer">#FFDAD6</color>
 
-    <color name="background">#1A1C1E</color>
-    <color name="onBackground">#E2E2E6</color>
-    <color name="surface">#1A1C1E</color>
-    <color name="onSurface">#E2E2E6</color>
-    <color name="surfaceVariant">#43474E</color>
-    <color name="onSurfaceVariant">#C3C7CF</color>
-    <color name="outline">#8D9199</color>
+    <color name="background">#0F0C18</color>
+    <color name="onBackground">#F4F5FB</color>
+    <color name="surface">#151126</color>
+    <color name="onSurface">#F4F5FB</color>
+    <color name="surfaceVariant">#3E4350</color>
+    <color name="onSurfaceVariant">#BCC3D3</color>
+    <color name="outline">#81889A</color>
 
-    <!-- Borderline specific -->
     <color name="bl_accent_warning">#FFB74D</color>
 </resources>

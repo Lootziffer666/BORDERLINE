@@ -1,32 +1,78 @@
 <resources>
     <string name="app_name">Borderline</string>
-    <string name="app_description">No-friction Accessibility Overlay mit transparenten, einzeln schaltbaren Modulen.</string>
+    <string name="app_description">Borderline lebt im Alltag im Overlay. Das App-Icon bleibt der verlässliche Rückweg.</string>
+
+    <!-- Setup -->
+    <string name="setup_eyebrow">Einrichtung</string>
+    <string name="setup_intro">Einmal einrichten. Danach taucht dieses Fenster nur noch auf, wenn du das App-Icon bewusst öffnest.</string>
+    <string name="wizard_step_counter">%1$d / %2$d</string>
+    <string name="wizard_welcome_title">Borderline richtet stillen Schnellzugriff ein</string>
+    <string name="wizard_welcome_body">Im Alltag soll Borderline kaum sichtbar sein. Dieses Onboarding führt nur durch die Voraussetzungen, damit Overlay und Quick Actions später einfach da sind.</string>
+
+    <string name="wizard_accessibility_title">Accessibility ist die Voraussetzung</string>
+    <string name="wizard_accessibility_body">Ohne den Accessibility-Service kann Borderline weder Kontext sehen noch das Overlay verlässlich anzeigen.</string>
+    <string name="wizard_accessibility_ready_hint">Accessibility ist aktiv. Du kannst mit der Einrichtung fortfahren.</string>
+    <string name="wizard_accessibility_missing_hint">Aktiviere zuerst den Service. Danach wird Borderline im Alltag erst wirklich lebendig.</string>
+
+    <string name="wizard_modules_title">Schnellzugriff wählen</string>
+    <string name="wizard_modules_body">Hier entscheidest du nur, ob Borderline das Overlay und die Quick Actions bereithält. Das ist keine Hauptoberfläche, sondern nur die Startkonfiguration.</string>
+    <string name="wizard_modules_hint">Quick Actions hängen am Overlay. Wenn das Overlay aus ist, bleiben auch die Quick Actions aus.</string>
+
+    <string name="wizard_xiaomi_title">Zusätzliche Freigaben für HyperOS</string>
+    <string name="wizard_xiaomi_body">Auf Xiaomi- und HyperOS-Geräten können Hintergrundrechte nötig sein, damit Borderline nicht still vom System ausgebremst wird.</string>
+    <string name="wizard_xiaomi_hint">Das ist kein eigener Modus, sondern nur Hilfe für Geräte, die gern zu aggressiv optimieren.</string>
+
+    <string name="wizard_finish_ready_title">Borderline ist bereit</string>
+    <string name="wizard_finish_ready_body">Von hier an gehört Borderline in den Hintergrund. Später öffnet das App-Icon nur noch Status, Wiederherstellung und Hilfe.</string>
+    <string name="wizard_finish_attention_title">Die Einrichtung ist gespeichert</string>
+    <string name="wizard_finish_attention_body">Auch wenn noch Rechte fehlen, wird das App-Icon ab jetzt zum Rückweg. Darüber kannst du Borderline später jederzeit reparieren oder nachziehen.</string>
+    <string name="wizard_finish_hint">Das Overlay ist das Produkt. Das App-Fenster bleibt danach nur noch die Serviceklappe.</string>
+
+    <!-- Actions -->
+    <string name="action_continue">Weiter</string>
+    <string name="action_finish">Fertig</string>
+    <string name="action_back">Zurück</string>
+    <string name="restart_setup">Einrichtung erneut starten</string>
+    <string name="open_accessibility_settings">Accessibility öffnen</string>
 
     <!-- Xiaomi / HyperOS -->
-    <string name="xiaomi_optimization_title">Xiaomi/HyperOS Optimierung</string>
-    <string name="xiaomi_hyperos_title_format">HyperOS (%1$s) Optimierung</string>
-    <string name="xiaomi_optimization_desc">Für HyperOS sind zusätzliche Berechtigungen nötig, damit das Overlay im Hintergrund und auf dem Lockscreen erscheint.</string>
-    <string name="xiaomi_autostart_btn">Autostart verwalten</string>
-    <string name="xiaomi_popup_btn">Display pop-up windows (Hintergrund)</string>
-    <string name="xiaomi_battery_btn">Energiesparmodus: Keine Beschränkung</string>
+    <string name="xiaomi_optimization_title">Xiaomi / HyperOS Hilfe</string>
+    <string name="xiaomi_hyperos_title_format">HyperOS (%1$s) Hilfe</string>
+    <string name="xiaomi_optimization_desc">Für HyperOS können zusätzliche Freigaben nötig sein, damit Borderline im Hintergrund und am Rand stabil bleibt.</string>
+    <string name="xiaomi_autostart_btn">Autostart prüfen</string>
+    <string name="xiaomi_popup_btn">Pop-up im Hintergrund erlauben</string>
+    <string name="xiaomi_battery_btn">Akku-Optimierung prüfen</string>
 
     <!-- Modules -->
-    <string name="modules_title">Module</string>
-    <string name="modules_desc">Accessibility ist das Backbone. Overlay und Quick Actions lassen sich separat testen.</string>
-    <string name="module_overlay_label">Overlay Panel</string>
+    <string name="modules_title">Schnellzugriff</string>
+    <string name="modules_setup_desc">Das sind die eigentlichen Alltagsfunktionen. Accessibility bleibt nur die Voraussetzung im Hintergrund.</string>
+    <string name="module_overlay_label">Overlay</string>
+    <string name="module_overlay_desc">Schwebender Einstieg am Bildschirmrand.</string>
     <string name="module_shortcuts_label">Quick Actions</string>
+    <string name="module_shortcuts_desc">Direkte Aktionen im Overlay.</string>
+
+    <!-- Settings -->
+    <string name="settings_eyebrow">Status &amp; Wiederherstellung</string>
+    <string name="settings_intro">Das App-Icon ist nicht die tägliche Nutzung. Es ist der verlässliche Rückweg, wenn du Borderline prüfen, reparieren oder neu einrichten willst.</string>
+    <string name="settings_ready_title">Borderline ist bereit</string>
+    <string name="settings_ready_body">Im Alltag solltest du Borderline hier kaum brauchen. Das Overlay übernimmt die eigentliche Nutzung.</string>
+    <string name="settings_attention_title">Borderline braucht Aufmerksamkeit</string>
+    <string name="settings_attention_body">Mindestens eine Voraussetzung fehlt oder ist eingeschränkt. Über diesen Screen findest du die nötigen Reparaturwege schnell wieder.</string>
+    <string name="settings_modules_title">Schnellzugriff verwalten</string>
+    <string name="settings_modules_desc">Diese Schalter bleiben bewusst klein. Das App-Fenster ist Wartung, nicht die Haupt-Experience.</string>
+    <string name="module_overlay_settings_desc">Edge-Handle und Overlay sichtbar halten.</string>
+    <string name="module_shortcuts_settings_desc">Aktionen im Overlay ein- oder ausblenden.</string>
+    <string name="settings_help_title">Gerätehilfe</string>
+    <string name="settings_help_desc">OEM-Freigaben und Hintergrundregeln sind selten schön, aber manchmal nötig.</string>
 
     <!-- Status -->
     <string name="status_title">Status</string>
     <string name="status_accessibility_active">Accessibility: aktiv</string>
     <string name="status_accessibility_inactive">Accessibility: nicht aktiv</string>
-    <string name="status_accessibility_unknown">Accessibility: unbekannt</string>
     <string name="status_module_format">%1$s: %2$s</string>
     <string name="status_on">an</string>
     <string name="status_off">aus</string>
-    <string name="open_accessibility_settings">Accessibility-Einstellungen öffnen</string>
 
     <!-- Footer -->
-    <string name="limits_title">Grenzen</string>
-    <string name="limits_desc">Keine Passwortauslese, keine magische Vollautomatisierung, kein App-übergreifendes Wunderland ohne Android-Grenzen.</string>
+    <string name="limits_desc">Borderline arbeitet innerhalb der Android-Grenzen: keine Wunderautomatisierung, keine versteckte Fremdsteuerung, kein Hokuspokus ohne Rechte.</string>
 </resources>
