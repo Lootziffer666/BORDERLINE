@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#1A1C1E</color>
+    <color name="bl_accent_warning">#FFB74D</color>
+    <color name="error">#FFB4AB</color>
+    <color name="errorContainer">#93000A</color>
+    <color name="ic_launcher_background">#001C38</color>
+    <color name="onBackground">#E2E2E6</color>
+    <color name="onError">#690005</color>
+    <color name="onErrorContainer">#FFDAD6</color>
+    <color name="onPrimary">#003062</color>
+    <color name="onPrimaryContainer">#D6E3FF</color>
+    <color name="onSecondary">#283141</color>
+    <color name="onSecondaryContainer">#D9E3F8</color>
+    <color name="onSurface">#E2E2E6</color>
+    <color name="onSurfaceVariant">#C3C7CF</color>
+    <color name="onTertiary">#3F2844</color>
+    <color name="onTertiaryContainer">#F9D8FD</color>
+    <color name="outline">#8D9199</color>
+    <color name="primary">#A8C8FF</color>
+    <color name="primaryContainer">#00468A</color>
+    <color name="secondary">#BDC7DC</color>
+    <color name="secondaryContainer">#3E4758</color>
+    <color name="surface">#1A1C1E</color>
+    <color name="surfaceVariant">#43474E</color>
+    <color name="tertiary">#DDBCE0</color>
+    <color name="tertiaryContainer">#573E5C</color>
+    <string name="app_description">No-friction Accessibility Overlay mit transparenten, einzeln schaltbaren Modulen.</string>
+    <string name="app_name">Borderline</string>
+    <string name="limits_desc">Keine Passwortauslese, keine magische Vollautomatisierung, kein App-übergreifendes Wunderland ohne Android-Grenzen.</string>
+    <string name="limits_title">Grenzen</string>
+    <string name="module_overlay_label">Overlay Panel</string>
+    <string name="module_shortcuts_label">Quick Actions</string>
+    <string name="modules_desc">Accessibility ist das Backbone. Overlay und Quick Actions lassen sich separat testen.</string>
+    <string name="modules_title">Module</string>
+    <string name="open_accessibility_settings">Accessibility-Einstellungen öffnen</string>
+    <string name="status_accessibility_active">Accessibility: aktiv</string>
+    <string name="status_accessibility_inactive">Accessibility: nicht aktiv</string>
+    <string name="status_accessibility_unknown">Accessibility: unbekannt</string>
+    <string name="status_module_format">%1$s: %2$s</string>
+    <string name="status_off">aus</string>
+    <string name="status_on">an</string>
+    <string name="status_title">Status</string>
+    <string name="xiaomi_autostart_btn">Autostart verwalten</string>
+    <string name="xiaomi_battery_btn">Energiesparmodus: Keine Beschränkung</string>
+    <string name="xiaomi_hyperos_title_format">HyperOS (%1$s) Optimierung</string>
+    <string name="xiaomi_optimization_desc">Für HyperOS sind zusätzliche Berechtigungen nötig, damit das Overlay im Hintergrund und auf dem Lockscreen erscheint.</string>
+    <string name="xiaomi_optimization_title">Xiaomi/HyperOS Optimierung</string>
+    <string name="xiaomi_popup_btn">Display pop-up windows (Hintergrund)</string>
+    <style name="Theme.Borderline" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/onTertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/onTertiaryContainer</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorErrorContainer">@color/errorContainer</item>
+        <item name="colorOnErrorContainer">@color/onErrorContainer</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+        <item name="colorOutline">@color/outline</item>
+
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+</resources>

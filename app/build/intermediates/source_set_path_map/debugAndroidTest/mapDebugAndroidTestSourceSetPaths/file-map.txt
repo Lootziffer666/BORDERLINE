@@ -1,0 +1,5 @@
+de.lootz.borderline.test.app-androidTest-0 C:\Users\Admin\StudioProjects\BorderlineAndroid\app\build\generated\res\resValues\androidTest\debug
+de.lootz.borderline.test.app-updated_navigation_xml-1 C:\Users\Admin\StudioProjects\BorderlineAndroid\app\build\generated\updated_navigation_xml\debugAndroidTest
+de.lootz.borderline.test.app-mergeDebugAndroidTestResources-2 C:\Users\Admin\StudioProjects\BorderlineAndroid\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+de.lootz.borderline.test.app-mergeDebugAndroidTestResources-3 C:\Users\Admin\StudioProjects\BorderlineAndroid\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+de.lootz.borderline.test.app-debugAndroidTest-4 C:\Users\Admin\StudioProjects\BorderlineAndroid\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
