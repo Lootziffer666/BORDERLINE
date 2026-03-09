@@ -20,29 +20,31 @@ object DeviceCompatibility {
             val c = Class.forName("android.os.SystemProperties")
             val get = c.getMethod("get", String::class.java)
             val version = get.invoke(c, "ro.miui.ui.version.name") as String
-            if (version.isNotEmpty()) version else null
-        } catch (e: Exception) {
+            version.ifEmpty { null }
+        } catch (ignored: Exception) {
             null
         }
     }
 
     fun openXiaomiAutoStartSettings(context: Context) {
         try {
-            val intent = Intent()
-            intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.autostart.AutoStartManagementActivity")
+            val intent = Intent().apply {
+                setClassName("com.miui.securitycenter", "com.miui.permcenter.autostart.AutoStartManagementActivity")
+            }
             context.startActivity(intent)
-        } catch (e: Exception) {
+        } catch (ignored: Exception) {
             openAppDetails(context)
         }
     }
 
     fun openXiaomiOtherPermissions(context: Context) {
         try {
-            val intent = Intent("miui.intent.action.APP_PERM_EDITOR")
-            intent.setClassName("com.miui.securitycenter", "com.miui.permcenter.permissions.PermissionsEditorActivity")
-            intent.putExtra("extra_pkgname", context.packageName)
+            val intent = Intent("miui.intent.action.APP_PERM_EDITOR").apply {
+                setClassName("com.miui.securitycenter", "com.miui.permcenter.permissions.PermissionsEditorActivity")
+                putExtra("extra_pkgname", context.packageName)
+            }
             context.startActivity(intent)
-        } catch (e: Exception) {
+        } catch (ignored: Exception) {
             openAppDetails(context)
         }
     }
@@ -51,14 +53,15 @@ object DeviceCompatibility {
         try {
             val intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
             context.startActivity(intent)
-        } catch (e: Exception) {
+        } catch (ignored: Exception) {
             openAppDetails(context)
         }
     }
 
     fun openAppDetails(context: Context) {
-        val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
-        intent.data = Uri.fromParts("package", context.packageName, null)
+        val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+            data = Uri.fromParts("package", context.packageName, null)
+        }
         context.startActivity(intent)
     }
 }
