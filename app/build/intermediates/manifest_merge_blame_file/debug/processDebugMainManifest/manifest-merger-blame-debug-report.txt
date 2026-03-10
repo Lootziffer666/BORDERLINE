@@ -20,66 +20,66 @@
 15-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\a15c49a688607eb6a25e65db9daa02ba\workspace\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:2:5-17:19
+17-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:2:5-17:19
 18        android:allowBackup="true"
-18-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:3:9-35
+18-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:3:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\a15c49a688607eb6a25e65db9daa02ba\workspace\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:icon="@mipmap/ic_launcher"
-22-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:4:9-43
+22-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:4:9-43
 23        android:label="@string/app_name"
-23-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:5:9-41
+23-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:5:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:6:9-54
+24-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:6:9-54
 25        android:supportsRtl="true"
-25-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:7:9-35
+25-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:7:9-35
 26        android:theme="@style/Theme.Borderline" >
-26-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:8:9-48
+26-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:8:9-48
 27        <activity
-27-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:9:9-16:20
+27-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:9:9-16:20
 28            android:name="de.lootz.borderline.MainActivity"
-28-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:10:13-41
+28-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:10:13-41
 29            android:exported="true" >
-29-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:11:13-36
+29-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:11:13-36
 30            <intent-filter>
-30-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:12:13-15:29
+30-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:12:13-15:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:13:17-69
-31-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:13:25-66
+31-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:13:17-69
+31-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:13:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:14:17-77
-33-->C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:14:27-74
+33-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:14:17-77
+33-->C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:14:27-74
 34            </intent-filter>
 35        </activity>
 36
 37        <service
-37-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-21:19
+37-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-21:19
 38            android:name="de.lootz.borderline.feature.accessibility.BorderlineAccessibilityService"
-38-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-100
+38-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-100
 39            android:description="@string/accessibility_service_description"
-39-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-76
+39-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-76
 40            android:exported="false"
-40-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
+40-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
 41            android:label="@string/accessibility_service_label"
-41-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-64
+41-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-64
 42            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-42-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-79
+42-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-79
 43            <intent-filter>
-43-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:29
+43-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:29
 44                <action android:name="android.accessibilityservice.AccessibilityService" />
-44-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-92
-44-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:25-89
+44-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-92
+44-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:25-89
 45            </intent-filter>
 46
 47            <meta-data
-47-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-20:76
+47-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-20:76
 48                android:name="android.accessibilityservice"
-48-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:17-60
+48-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:17-60
 49                android:resource="@xml/borderline_accessibility_service" />
-49-->[:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:17-73
+49-->[:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:17-73
 50        </service>
 51
 52        <provider

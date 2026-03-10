@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:1:1-18:12
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:1:1-18:12
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:1:1-18:12
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:1:1-18:12
 MERGED from [androidx.databinding:viewbinding:9.0.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\cfc8150719db453a59baadfeb1cd9563\workspace\transformed\viewbinding-9.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-24:12
-MERGED from [:feature-overlay] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
-MERGED from [:feature-shortcuts] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
-MERGED from [:core] C:\Users\Admin\StudioProjects\BorderlineAndroid\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-24:12
+MERGED from [:feature-overlay] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:feature-shortcuts] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:core] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\b5ec209a2a943ddc6eaff83a9b07c67f\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\50440915e86dbda2314b803469eae779\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\0c9604d2c75cb6d87ae09df21d3b8a62\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -55,18 +55,18 @@ MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Admin\.gradle\caches\9.3.1
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\8a670ad04e79b7dd2e876bcc518eb6c6\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\1e5f1d6c77b462d08f222774ce37e86e\workspace\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:2:5-17:19
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:2:5-17:19
-MERGED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-22:19
-MERGED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-22:19
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:2:5-17:19
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:2:5-17:19
+MERGED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-22:19
+MERGED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-22:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\b5ec209a2a943ddc6eaff83a9b07c67f\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\b5ec209a2a943ddc6eaff83a9b07c67f\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\50440915e86dbda2314b803469eae779\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -84,51 +84,51 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Admin\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\09d38facc49eaf9c8ffd1b6b99f86fba\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\09d38facc49eaf9c8ffd1b6b99f86fba\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\a15c49a688607eb6a25e65db9daa02ba\workspace\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:7:9-35
 	android:label
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:5:9-41
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:5:9-41
 	android:roundIcon
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:6:9-54
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:6:9-54
 	android:icon
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:4:9-43
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:4:9-43
 	android:allowBackup
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:3:9-35
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:3:9-35
 	android:theme
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:8:9-48
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:8:9-48
 activity#de.lootz.borderline.MainActivity
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:9:9-16:20
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:9:9-16:20
 	android:exported
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:11:13-36
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:10:13-41
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:10:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:12:13-15:29
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:12:13-15:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:14:17-77
+ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml:14:27-74
+		ADDED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml:14:27-74
 uses-sdk
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:9.0.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\cfc8150719db453a59baadfeb1cd9563\workspace\transformed\viewbinding-9.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:9.0.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\cfc8150719db453a59baadfeb1cd9563\workspace\transformed\viewbinding-9.0.1\AndroidManifest.xml:5:5-44
-MERGED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:feature-overlay] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:feature-overlay] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:feature-shortcuts] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:feature-shortcuts] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:core] C:\Users\Admin\StudioProjects\BorderlineAndroid\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
-MERGED from [:core] C:\Users\Admin\StudioProjects\BorderlineAndroid\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-overlay] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-overlay] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-overlay\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-shortcuts] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:feature-shortcuts] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-shortcuts\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:core] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:core] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\core\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\b5ec209a2a943ddc6eaff83a9b07c67f\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\b5ec209a2a943ddc6eaff83a9b07c67f\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Admin\.gradle\caches\9.3.1\transforms\50440915e86dbda2314b803469eae779\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
@@ -220,33 +220,33 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Admin\.gradle\cache
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\1e5f1d6c77b462d08f222774ce37e86e\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\1e5f1d6c77b462d08f222774ce37e86e\workspace\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Admin\StudioProjects\BorderlineAndroid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\app\src\main\AndroidManifest.xml
 service#de.lootz.borderline.feature.accessibility.BorderlineAccessibilityService
-ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-21:19
+ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-21:19
 	android:label
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-64
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-64
 	android:exported
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-37
 	android:permission
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-79
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-79
 	android:description
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-76
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-76
 	android:name
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-100
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-100
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:29
+ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-16:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-92
+ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:17-92
 	android:name
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:25-89
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:25-89
 meta-data#android.accessibilityservice
-ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-20:76
+ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-20:76
 	android:resource
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:17-73
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:17-73
 	android:name
-		ADDED from [:feature-accessibility] C:\Users\Admin\StudioProjects\BorderlineAndroid\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:17-60
+		ADDED from [:feature-accessibility] C:\Users\Admin\Documents\GitHub\BorderlineAndroidUIv2\feature-accessibility\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:17-60
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\9.3.1\transforms\68908c9ad7f5bfe64c312ecb023acef6\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Admin\.gradle\caches\9.3.1\transforms\a6de64df507b036831f66346ce867251\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
