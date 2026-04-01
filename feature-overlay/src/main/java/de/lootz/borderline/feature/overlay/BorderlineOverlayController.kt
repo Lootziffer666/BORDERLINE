@@ -2,11 +2,14 @@ package de.lootz.borderline.feature.overlay
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.animation.ValueAnimator
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.graphics.PixelFormat
+import android.graphics.RenderEffect
+import android.graphics.Shader
 import android.net.Uri
 import android.os.Build
 import android.os.Handler
@@ -56,6 +59,7 @@ class BorderlineOverlayController(
 
     private val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
     private val handles = mutableMapOf<HandleZone, View>()
+    private val handleBreathers = mutableMapOf<Int, ValueAnimator>()
     private var panelView: View? = null
     private val overlayScope = CoroutineScope(Dispatchers.Main + Job())
     private var activeZone: HandleZone? = null
@@ -129,8 +133,13 @@ class BorderlineOverlayController(
                 Toast.makeText(context, R.string.overlay_disabled_toast, Toast.LENGTH_SHORT).show()
                 true
             }
+            // Start semi-disappearing: 65% opacity for the "obviously disappearing" look
+            view.alpha = 0.65f
             safeAddView(view, handleParams(zone))
             handles[zone] = view
+
+            // Subtle breathing pulse — the handle gently becomes present then recedes
+            startHandleBreathing(view)
 
             if (imeDetector == null) {
                 imeDetector = ImeStateDetector(view) { visible ->
@@ -152,7 +161,8 @@ class BorderlineOverlayController(
                 HandleZone.SNIPPETS -> Gravity.START or Gravity.TOP
                 HandleZone.CLIPPER -> Gravity.END or Gravity.TOP
             }
-            x = 0
+            // Partially off-screen: only the rounded pill peeks in from the edge
+            x = -12
             y = if (imeVisible) yIme else yCenter
         }
     }
@@ -253,11 +263,15 @@ class BorderlineOverlayController(
         hidePanel()
         imeDetector?.unregister()
         imeDetector = null
+        handleBreathers.values.forEach { it.cancel() }
+        handleBreathers.clear()
         handles.values.forEach { safeRemoveView(it) }
         handles.clear()
     }
 
     fun dispose() {
+        handleBreathers.values.forEach { it.cancel() }
+        handleBreathers.clear()
         hideAll()
         overlayScope.cancel()
     }
@@ -611,36 +625,62 @@ class BorderlineOverlayController(
 
     // ── Animation helpers ────────────────────────────────────
 
+    private fun startHandleBreathing(view: View) {
+        val breathe = ValueAnimator.ofFloat(0.65f, 0.82f, 0.65f).apply {
+            duration = 4800
+            interpolator = DecelerateInterpolator(1.0f)
+            repeatCount = ValueAnimator.INFINITE
+            repeatMode = ValueAnimator.RESTART
+            addUpdateListener { anim ->
+                view.alpha = anim.animatedValue as Float
+            }
+        }
+        handleBreathers[view.hashCode()] = breathe
+        breathe.start()
+    }
+
+    private fun stopHandleBreathing(view: View) {
+        handleBreathers.remove(view.hashCode())?.cancel()
+    }
+
     private fun animatePanelIn(view: View, zone: HandleZone) {
         val isLeft = zone == HandleZone.SNIPPETS
-        val translationStart = if (isLeft) -40f else 40f
+        val translationStart = if (isLeft) -24f else 24f
 
         view.alpha = 0f
         view.translationX = translationStart
-        view.scaleX = 0.96f
-        view.scaleY = 0.96f
+        view.translationY = -8f
+        view.scaleX = 0.97f
+        view.scaleY = 0.97f
 
         val fadeIn = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
-        val slideIn = ObjectAnimator.ofFloat(view, "translationX", translationStart, 0f)
-        val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 0.96f, 1f)
-        val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 0.96f, 1f)
+        val slideInX = ObjectAnimator.ofFloat(view, "translationX", translationStart, 0f)
+        val slideInY = ObjectAnimator.ofFloat(view, "translationY", -8f, 0f)
+        val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 0.97f, 1f)
+        val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 0.97f, 1f)
 
         AnimatorSet().apply {
-            playTogether(fadeIn, slideIn, scaleX, scaleY)
-            duration = 200
-            interpolator = DecelerateInterpolator(2.0f)
+            playTogether(fadeIn, slideInX, slideInY, scaleX, scaleY)
+            duration = 280
+            interpolator = DecelerateInterpolator(1.8f)
+            addListener(object : android.animation.AnimatorListenerAdapter() {
+                override fun onAnimationEnd(animation: android.animation.Animator) {
+                    applyPanelBlur(view)
+                }
+            })
             start()
         }
     }
 
     private fun animatePanelOut(view: View) {
         val fadeOut = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
-        val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 1f, 0.96f)
-        val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 1f, 0.96f)
+        val slideOutY = ObjectAnimator.ofFloat(view, "translationY", 0f, -6f)
+        val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 1f, 0.97f)
+        val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 1f, 0.97f)
 
         AnimatorSet().apply {
-            playTogether(fadeOut, scaleX, scaleY)
-            duration = 150
+            playTogether(fadeOut, slideOutY, scaleX, scaleY)
+            duration = 200
             interpolator = DecelerateInterpolator(1.5f)
             addListener(object : android.animation.AnimatorListenerAdapter() {
                 override fun onAnimationEnd(animation: android.animation.Animator) {
@@ -648,6 +688,14 @@ class BorderlineOverlayController(
                 }
             })
             start()
+        }
+    }
+
+    private fun applyPanelBlur(view: View) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            view.setRenderEffect(
+                RenderEffect.createBlurEffect(16f, 16f, Shader.TileMode.CLAMP)
+            )
         }
     }
 

@@ -23,7 +23,7 @@
             android:ellipsize="end"
             android:fontFamily="sans-serif"
             android:maxLines="2"
-            android:textColor="#C0D0E0"
+            android:textColor="#B8C8D8"
             android:textSize="11sp" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:fontFamily="sans-serif"
-            android:textColor="#506070"
+            android:textColor="#40586878"
             android:textSize="9sp" />
     </LinearLayout>
 
@@ -45,7 +45,7 @@
         android:contentDescription="@string/action_pin_toggle"
         android:padding="4dp"
         android:src="@drawable/ic_push_pin"
-        app:tint="#607085" />
+        app:tint="#5068788A" />
 
     <!-- Delete button -->
     <ImageView
@@ -56,5 +56,5 @@
         android:contentDescription="@string/action_delete_item"
         android:padding="4dp"
         android:src="@drawable/ic_delete"
-        app:tint="#607085" />
+        app:tint="#5068788A" />
 </LinearLayout>

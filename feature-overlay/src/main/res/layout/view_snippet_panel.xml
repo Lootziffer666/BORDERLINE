@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="264dp"
+    android:layout_width="288dp"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_overlay_panel"
-    android:elevation="8dp"
+    android:elevation="4dp"
+    android:outlineAmbientShadowColor="#08D8C3F2"
+    android:outlineSpotShadowColor="#08D8C3F2"
     android:orientation="vertical"
-    android:paddingHorizontal="16dp"
-    android:paddingTop="14dp"
-    android:paddingBottom="10dp">
+    android:paddingHorizontal="20dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="12dp">
 
     <!-- Header: Title + Close -->
     <LinearLayout
@@ -23,23 +25,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="sans-serif-medium"
-            android:letterSpacing="0.02"
+            android:letterSpacing="0.04"
             android:text="@string/panel_title_snippets"
-            android:textColor="#E0E6F0"
-            android:textSize="14sp" />
+            android:textColor="#D8DEEA"
+            android:textSize="13sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/snippetCloseButton"
             style="@style/Widget.Material3.Button.IconButton"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:minWidth="32dp"
-            android:minHeight="32dp"
-            android:text="✕"
-            android:textColor="#80A0B0C8"
-            android:textSize="14sp"
+            android:minWidth="28dp"
+            android:minHeight="28dp"
+            android:text="x"
+            android:textColor="#6078889A"
+            android:textSize="13sp"
             app:iconPadding="0dp"
             app:rippleColor="#14A8C8FF" />
     </LinearLayout>
@@ -49,26 +51,26 @@
         android:id="@+id/snippetSearchField"
         android:layout_width="match_parent"
         android:layout_height="36dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/bg_search_field"
         android:drawableStart="@drawable/ic_search"
-        android:drawablePadding="6dp"
+        android:drawablePadding="8dp"
         android:fontFamily="sans-serif"
         android:hint="@string/snippet_search_hint"
         android:imeOptions="actionDone"
         android:importantForAutofill="no"
         android:inputType="text"
         android:maxLines="1"
-        android:paddingHorizontal="10dp"
-        android:textColor="#C0D0E0"
-        android:textColorHint="#607085"
+        android:paddingHorizontal="12dp"
+        android:textColor="#B8C8D8"
+        android:textColorHint="#5068788A"
         android:textSize="12sp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="8dp"
-        android:alpha="0.08"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.06"
         android:background="#FFFFFF" />
 
     <!-- Snippet list container (scrollable) -->
@@ -76,9 +78,9 @@
         android:id="@+id/snippetScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:fadingEdge="vertical"
-        android:fadingEdgeLength="12dp"
+        android:fadingEdgeLength="16dp"
         android:scrollbars="none">
 
         <LinearLayout
@@ -94,9 +96,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingVertical="16dp"
+        android:paddingVertical="18dp"
         android:text="@string/snippet_empty"
-        android:textColor="#607085"
+        android:textColor="#5068788A"
         android:textSize="12sp"
         android:visibility="gone" />
 
@@ -106,16 +108,16 @@
         style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="36dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:gravity="center"
         android:text="@string/snippet_add"
         android:textAllCaps="false"
-        android:textColor="#A8C8FF"
+        android:textColor="#90B0D0"
         android:textSize="12sp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="14dp"
         app:icon="@drawable/ic_add"
         app:iconSize="16dp"
-        app:iconTint="#A8C8FF"
+        app:iconTint="#90B0D0"
         app:rippleColor="#14A8C8FF" />
 
     <!-- Inline edit form (initially GONE) -->
@@ -123,47 +125,47 @@
         android:id="@+id/snippetEditContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:orientation="vertical"
         android:visibility="gone">
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:alpha="0.08"
+            android:layout_height="0.5dp"
+            android:alpha="0.06"
             android:background="#FFFFFF" />
 
         <TextView
             android:id="@+id/snippetEditLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-medium"
             android:text="@string/snippet_new"
-            android:textColor="#A8C8FF"
+            android:textColor="#90B0D0"
             android:textSize="12sp" />
 
         <EditText
             android:id="@+id/snippetEditTitle"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/bg_search_field"
             android:fontFamily="sans-serif"
             android:hint="@string/snippet_title_hint"
             android:importantForAutofill="no"
             android:inputType="text"
             android:maxLines="1"
-            android:paddingHorizontal="10dp"
-            android:textColor="#C0D0E0"
-            android:textColorHint="#607085"
+            android:paddingHorizontal="12dp"
+            android:textColor="#B8C8D8"
+            android:textColorHint="#5068788A"
             android:textSize="12sp" />
 
         <EditText
             android:id="@+id/snippetEditContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="6dp"
             android:background="@drawable/bg_search_field"
             android:fontFamily="sans-serif"
             android:gravity="top|start"
@@ -172,16 +174,16 @@
             android:inputType="textMultiLine"
             android:lines="3"
             android:maxLines="5"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="8dp"
-            android:textColor="#C0D0E0"
-            android:textColorHint="#607085"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="10dp"
+            android:textColor="#B8C8D8"
+            android:textColorHint="#5068788A"
             android:textSize="12sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="8dp"
             android:gravity="end"
             android:orientation="horizontal">
 
@@ -194,9 +196,9 @@
                 android:minHeight="32dp"
                 android:text="@string/action_cancel"
                 android:textAllCaps="false"
-                android:textColor="#607085"
+                android:textColor="#5068788A"
                 android:textSize="12sp"
-                app:cornerRadius="12dp"
+                app:cornerRadius="14dp"
                 app:rippleColor="#14A8C8FF" />
 
             <com.google.android.material.button.MaterialButton
@@ -204,14 +206,14 @@
                 style="@style/Widget.Material3.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="6dp"
                 android:minWidth="64dp"
                 android:minHeight="32dp"
                 android:text="@string/action_save"
                 android:textAllCaps="false"
-                android:textColor="#A8C8FF"
+                android:textColor="#90B0D0"
                 android:textSize="12sp"
-                app:cornerRadius="12dp"
+                app:cornerRadius="14dp"
                 app:rippleColor="#14A8C8FF" />
         </LinearLayout>
     </LinearLayout>
