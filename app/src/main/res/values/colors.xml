@@ -2,6 +2,7 @@
 <resources>
     <color name="ic_launcher_background">#001C38</color>
 
+    <!-- Primary: cool blue, muted for glass -->
     <color name="primary">#A8C8FF</color>
     <color name="onPrimary">#0C1A33</color>
     <color name="primaryContainer">#20304B</color>
@@ -12,6 +13,7 @@
     <color name="secondaryContainer">#2A3141</color>
     <color name="onSecondaryContainer">#DEE4F4</color>
 
+    <!-- Tertiary: soft violet, the glass tint accent -->
     <color name="tertiary">#D8C3F2</color>
     <color name="onTertiary">#2E2242</color>
     <color name="tertiaryContainer">#43345B</color>
@@ -22,13 +24,29 @@
     <color name="errorContainer">#93000A</color>
     <color name="onErrorContainer">#FFDAD6</color>
 
-    <color name="background">#0F0C18</color>
-    <color name="onBackground">#F4F5FB</color>
-    <color name="surface">#151126</color>
-    <color name="onSurface">#F4F5FB</color>
+    <!-- Deep dark purple background -->
+    <color name="background">#090712</color>
+    <color name="onBackground">#E8EAF0</color>
+    <color name="surface">#0D0B16</color>
+    <color name="onSurface">#E8EAF0</color>
     <color name="surfaceVariant">#3E4350</color>
-    <color name="onSurfaceVariant">#BCC3D3</color>
-    <color name="outline">#81889A</color>
+    <color name="onSurfaceVariant">#A8AFC0</color>
+    <color name="outline">#687082</color>
+
+    <!-- Glassmorphism-specific palette -->
+    <color name="glass_fill">#CC0D0B16</color>
+    <color name="glass_fill_strong">#D80D0B16</color>
+    <color name="glass_stroke">#22D8C3F2</color>
+    <color name="glass_stroke_strong">#33D8C3F2</color>
+    <color name="glass_glow_top">#14D8C3F2</color>
+    <color name="glass_glow_faint">#08A8C8FF</color>
+    <color name="glass_edge_line">#18A8C8FF</color>
+
+    <!-- Text hierarchy for glass surfaces -->
+    <color name="glass_text_primary">#D8DEEA</color>
+    <color name="glass_text_secondary">#A8B0C2</color>
+    <color name="glass_text_tertiary">#5068788A</color>
+    <color name="glass_text_accent">#90B0D0</color>
 
     <color name="bl_accent_warning">#FFB74D</color>
 </resources>

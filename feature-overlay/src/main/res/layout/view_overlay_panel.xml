@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="264dp"
+    android:layout_width="288dp"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_overlay_panel"
-    android:elevation="8dp"
+    android:elevation="4dp"
+    android:outlineAmbientShadowColor="#08D8C3F2"
+    android:outlineSpotShadowColor="#08D8C3F2"
     android:orientation="vertical"
-    android:paddingHorizontal="16dp"
-    android:paddingTop="14dp"
-    android:paddingBottom="10dp">
+    android:paddingHorizontal="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="12dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,25 +24,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Borderline"
-            android:textColor="#E0E6F0"
-            android:textSize="14sp"
+            android:textColor="#D8DEEA"
+            android:textSize="13sp"
             android:fontFamily="sans-serif-medium"
-            android:letterSpacing="0.02" />
+            android:letterSpacing="0.04" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/closeOverlayButton"
             style="@style/Widget.Material3.Button.IconButton"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:text="✕"
-            android:textColor="#80A0B0C8"
-            android:textSize="14sp"
-            android:minWidth="32dp"
-            android:minHeight="32dp"
+            android:text="x"
+            android:textColor="#6078889A"
+            android:textSize="13sp"
+            android:minWidth="28dp"
+            android:minHeight="28dp"
             app:iconPadding="0dp"
-            app:rippleColor="#14A8C8FF" />
+            app:rippleColor="#18A8C8FF" />
     </LinearLayout>
 
     <TextView
@@ -49,16 +51,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:text="@string/status_ready"
-        android:textColor="#607085"
+        android:textColor="#5068788A"
         android:textSize="11sp"
         android:fontFamily="sans-serif"
-        android:letterSpacing="0.01" />
+        android:letterSpacing="0.02" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:alpha="0.08"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0.06"
         android:background="#FFFFFF" />
 
     <com.google.android.material.button.MaterialButton
@@ -66,17 +68,17 @@
         style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:gravity="start|center_vertical"
-        android:paddingHorizontal="8dp"
+        android:paddingHorizontal="10dp"
         android:text="Action 1"
         android:textAllCaps="false"
-        android:textColor="#C0D0E0"
+        android:textColor="#B8C8D8"
         android:textSize="13sp"
         android:fontFamily="sans-serif"
         android:letterSpacing="0.0"
         android:minHeight="40dp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="14dp"
         app:rippleColor="#14A8C8FF" />
 
     <com.google.android.material.button.MaterialButton
@@ -85,15 +87,15 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="start|center_vertical"
-        android:paddingHorizontal="8dp"
+        android:paddingHorizontal="10dp"
         android:text="Action 2"
         android:textAllCaps="false"
-        android:textColor="#C0D0E0"
+        android:textColor="#B8C8D8"
         android:textSize="13sp"
         android:fontFamily="sans-serif"
         android:letterSpacing="0.0"
         android:minHeight="40dp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="14dp"
         app:rippleColor="#14A8C8FF" />
 
     <com.google.android.material.button.MaterialButton
@@ -102,15 +104,15 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="start|center_vertical"
-        android:paddingHorizontal="8dp"
+        android:paddingHorizontal="10dp"
         android:text="Action 3"
         android:textAllCaps="false"
-        android:textColor="#C0D0E0"
+        android:textColor="#B8C8D8"
         android:textSize="13sp"
         android:fontFamily="sans-serif"
         android:letterSpacing="0.0"
         android:minHeight="40dp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="14dp"
         app:rippleColor="#14A8C8FF" />
 
     <com.google.android.material.button.MaterialButton
@@ -119,14 +121,14 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="start|center_vertical"
-        android:paddingHorizontal="8dp"
+        android:paddingHorizontal="10dp"
         android:text="Action 4"
         android:textAllCaps="false"
-        android:textColor="#C0D0E0"
+        android:textColor="#B8C8D8"
         android:textSize="13sp"
         android:fontFamily="sans-serif"
         android:letterSpacing="0.0"
         android:minHeight="40dp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="14dp"
         app:rippleColor="#14A8C8FF" />
 </LinearLayout>
