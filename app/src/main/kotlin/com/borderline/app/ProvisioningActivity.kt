@@ -13,6 +13,7 @@ import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.borderline.feature.overlay.OverlayHandleService
 
 /**
  * Provisioning Screen: The app icon opens this.
@@ -91,6 +92,50 @@ class ProvisioningActivity : AppCompatActivity() {
             setPadding(0, dp(8), 0, dp(16))
         }
         root.addView(permissionContainer)
+
+        // Overlay service control
+        if (Settings.canDrawOverlays(this)) {
+            val toggleBtn = Button(this).apply {
+                text = "Start Overlay Handles"
+                textSize = 15f
+                setTextColor(0xFFFFFFFF.toInt())
+                setBackgroundColor(0xFF2E7D32.toInt())
+                setPadding(dp(16), dp(12), dp(16), dp(12))
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                ).apply { topMargin = dp(16) }
+                setOnClickListener {
+                    val intent = Intent(this@ProvisioningActivity, OverlayHandleService::class.java)
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        startForegroundService(intent)
+                    } else {
+                        startService(intent)
+                    }
+                    text = "Overlay Handles Running ✓"
+                    setBackgroundColor(0xFF1B5E20.toInt())
+                }
+            }
+            root.addView(toggleBtn)
+
+            val stopBtn = Button(this).apply {
+                text = "Stop Overlay"
+                textSize = 13f
+                setTextColor(0xFFB0B0B0.toInt())
+                setBackgroundColor(0xFF333333.toInt())
+                setPadding(dp(16), dp(8), dp(16), dp(8))
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                ).apply { topMargin = dp(4) }
+                setOnClickListener {
+                    val intent = Intent(this@ProvisioningActivity, OverlayHandleService::class.java)
+                    intent.action = OverlayHandleService.ACTION_STOP
+                    startService(intent)
+                }
+            }
+            root.addView(stopBtn)
+        }
 
         // Close hint
         root.addView(TextView(this).apply {
