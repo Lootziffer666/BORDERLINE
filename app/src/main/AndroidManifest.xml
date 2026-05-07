@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -6,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Borderline">
+
+        <!-- Launcher entry point: redirects to ProvisioningActivity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -14,5 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Provisioning/setup screen: the actual UI -->
+        <activity
+            android:name="com.borderline.app.ProvisioningActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Borderline" />
+
     </application>
 </manifest>
