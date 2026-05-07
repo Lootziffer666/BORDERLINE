@@ -1,0 +1,27 @@
+[
+  {
+    "id": "codex-gate-request",
+    "title": "Codex Gate Request",
+    "content": "Bitte prüfe den Scope strikt und liefere eine minimale, sichere Änderung mit klarer Statusmeldung."
+  },
+  {
+    "id": "claude-repair-request",
+    "title": "Claude Repair Request",
+    "content": "Analysiere den Fehler reproduzierbar, benenne Root Cause, liefere Patch plus kurze Validierungsschritte."
+  },
+  {
+    "id": "perplexity-deep-research",
+    "title": "Perplexity Deep Research Prompt",
+    "content": "Recherchiere den aktuellen Stand mit Primärquellen, liste Unsicherheiten und gib konkrete nächste Verifikationsschritte."
+  },
+  {
+    "id": "doc-tag-template",
+    "title": "DOC Tag Template",
+    "content": "DOC:PROJECT=<Name>;TYPE=<Type>;FORMAT=<fmt>"
+  },
+  {
+    "id": "flowinput-header",
+    "title": "FLOWINPUT Header",
+    "content": "DOC:PROJECT=FLOW;TYPE=FLOWINPUT;FORMAT=txt\nSOURCE=Capture\n"
+  }
+]
