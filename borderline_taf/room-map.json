@@ -1,0 +1,27 @@
+{
+  "app": "BorderlineTAF",
+  "version": "0.2",
+  "panels": [
+    {"id": "snippets", "label": "Snippets"},
+    {"id": "ai", "label": "AI"},
+    {"id": "docs", "label": "Docs"},
+    {"id": "capture", "label": "Capture"}
+  ],
+  "actions": {
+    "copy_states": [
+      "Full Text Copy",
+      "File Reference Copy",
+      "Saved Only"
+    ],
+    "status_copy": {
+      "ready": "Bereit zum Einfügen",
+      "file_ref": "Dateiverweis kopiert"
+    },
+    "ai_targets": [
+      {"label": "ChatGPT", "url": "https://chatgpt.com", "package": "com.android.chrome"},
+      {"label": "Claude", "url": "https://claude.ai", "package": "com.android.chrome"},
+      {"label": "Gemini", "url": "https://gemini.google.com", "package": "com.android.chrome"},
+      {"label": "NotebookLM", "url": "https://notebooklm.google.com", "package": "com.android.chrome"}
+    ]
+  }
+}
