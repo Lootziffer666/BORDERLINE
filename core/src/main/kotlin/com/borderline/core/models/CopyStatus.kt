@@ -14,7 +14,10 @@ enum class CopyStatus(val displayText: String) {
     /** Content was saved to storage but not copied to clipboard. */
     SAVED_NOT_COPIED("Saved but not copied"),
 
-    /** Clipboard operation failed (Android blocked it, etc.). */
+    /** Android security blocked clipboard access (SecurityException). */
+    ANDROID_BLOCKED("Android blocked access"),
+
+    /** Clipboard operation failed (generic). */
     CLIPBOARD_FAILED("Clipboard failed"),
 
     /** User needs to manually copy or paste. */

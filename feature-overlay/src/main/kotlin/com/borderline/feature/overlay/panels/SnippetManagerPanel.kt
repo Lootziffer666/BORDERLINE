@@ -484,6 +484,7 @@ class SnippetManagerPanel(
                 CopyStatus.COPIED_FULL_TEXT -> 0xFF4CAF50.toInt()
                 CopyStatus.COPIED_FILE_REFERENCE -> 0xFF2196F3.toInt()
                 CopyStatus.SAVED_NOT_COPIED -> 0xFF888888.toInt()
+                CopyStatus.ANDROID_BLOCKED -> 0xFFFF5252.toInt()
                 CopyStatus.CLIPBOARD_FAILED -> 0xFFFF5252.toInt()
                 CopyStatus.NEEDS_MANUAL_ACTION -> 0xFFFF9800.toInt()
             })
