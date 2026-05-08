@@ -142,7 +142,7 @@ class SnippetObjectRepository(
                     sizeBytes = obj.optLong("sizeBytes", 0L),
                     storageMode = enumValueOrDefault(obj.optString("storageMode", "INLINE")),
                     previewText = obj.optString("previewText", ""),
-                    inlineContent = obj.optString("inlineContent", null),
+                    inlineContent = obj.optString("inlineContent", "").ifBlank { null },
                     fullContentPath = obj.optString("fullContentPath", "").ifBlank { null },
                     checksum = obj.optString("checksum", "").ifBlank { null },
                     tags = tags,
